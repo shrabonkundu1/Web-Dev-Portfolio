@@ -204,3 +204,50 @@ main {
     margin: 30px 0px 30px 0px;
 }
 
+/* skill add complete */
+/* 2nd section complete */
+
+/* 3rd section start */
+
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.experience--title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+.experience-sub-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description {
+    color: #757575;
+    margin-bottom: 40px;
+}
+
+.btn-center {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
