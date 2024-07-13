@@ -339,17 +339,55 @@ button {
 }
 
 @media screen and (max-width:576px) {
-    
+
+        .nav-title{
+            margin-right: 35px;
+        }
+
+
+        .header {
+            background-image: none;
+        }
+
+        .banner-profile-pic {
+            width: 100%;
+        }
+
+        button {
+            margin-left: 50px;
+        }
+        .navigation {
+            flex-direction: column;
+        }
+
+        .navigation > ul {
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .btn-primary {
+            margin-bottom: 20px;
+        }
+
+        .btn-primary2 {
+            margin-bottom: 35px;
+        }
+
     .about {
         padding: 20px;
         
     }
     
-
-    .about-items {
+    .about-items  {
         flex-direction: column;
         margin-top: 25px;
         gap: 20px;
+    }
+
+    .banner {
+        margin: 20px;
+        flex-direction: column;
     }
 
     .section-title {
@@ -364,12 +402,10 @@ button {
         flex-direction: column;
     }
 
-
     .skill {
         margin: 0 auto;
         margin-bottom: 0px;
         margin-top: 20px;
-        
     }
 
     /* Resume */
