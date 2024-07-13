@@ -28,14 +28,8 @@ nav {
     padding-top: 50px;
 }
 
-.secondary-bg {
-    background-color: #fff8f3;
-}
 
 /* border main */
-.border-box{
-    border: 1px solid;
-}
 
 .text-primary {
     color: #FD6E0A;
@@ -139,6 +133,11 @@ main {
 /* main comtainer end */
 
 /* 1sst section start */
+
+.secondary-bg {
+    background-color: #fff8f3;
+}
+
 
 .about {
     border-radius: 10px;
@@ -280,7 +279,7 @@ main {
     background-color: #fff8f3;
     padding: 130px 200px;
     display: flex;
-    gap: 100px;
+    gap: 110px;
     text-align: left;
 
 }
@@ -330,4 +329,80 @@ textarea {
 button {
     cursor: pointer;
     size: 5px;
+}
+
+
+/* Responsive Media query */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    
+    .about {
+        padding: 20px;
+        
+    }
+    
+
+    .about-items {
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 20px;
+    }
+
+    .section-title {
+        margin-bottom: 10px;
+    }
+
+    .head-p {
+        margin-top: 80px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+
+    .skill {
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        
+    }
+
+    /* Resume */
+    .resume-title {
+        margin-top: 90px;
+        margin-bottom: 35px;
+        font-size: 40px;
+    }
+    .resume-container {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .resume-column-title {
+        margin-top: 20px;
+    }
+
+    .experience--title  {
+        font-size: 22px;
+    }
+    /* footer */
+
+    .footer-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 80px;
+    }
+    .footer-column  {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+   
 }
